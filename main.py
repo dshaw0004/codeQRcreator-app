@@ -24,7 +24,7 @@ class codeQRcreator(App):
         self.image.source = f"QRcode-{filename_hash}.png"
 
     def build(self):
-        self.icon = "codeQRcreator-icon.png"
+        self.icon = "images/icon.png"
         self.screen = Screen()
         self.image = AsyncImage(
             source=self.url,
